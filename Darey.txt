@@ -1,0 +1,21 @@
+The Code was written in VS Code, and was tested on chrome browse using Liver Server
+
+Objective: "undefined undefined undefined undefined" 
+
+Feedback Request Response:
+To clearly define objectives, consider the following steps:
+
+Identify the Goal: Clearly state what you want to achieve with the project. For example, "Create a personal profile webpage using HTML that includes sections for biography, hobbies, and contact information."
+
+Specify Requirements: List the specific features or elements that the project must include. For example, "The page should have a header with navigation links, a main section with a biography and hobbies, and a footer with contact information."
+
+Define Use Case: Describe how the project will be used or who the intended audience is. For example, "The profile page is intended for personal use to showcase my skills and interests to potential employers."
+
+Set Performance Criteria: Outline any performance expectations, such as loading speed or compatibility with different browsers.
+
+By following these steps, you can create a well-defined objective that guides the development process and provides a clear framework for evaluation.
+
+The objective and the Specify Requirements of the project are defined  at the beginning of the project using the p tag.
+
+
+The use of the <p> tag to define the objective and requirements at the beginning of the project is a creative way to document the purpose and scope directly within the HTML file. However, it is more conventional to include such documentation in comments or a separate README file to keep the HTML focused on content presentation. Additionally, ensuring that the IDs and section names are consistent and free of typos will enhance the overall quality and professionalism of the webpage.
