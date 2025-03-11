@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevPath - Learn to Code</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/DevPath/style.css" />
   </head>
   <body>
-    <header class="hero">
+    <header>
+      <nav>
+        <ul class="navList">
+          <li class="logo">DevPath</li>
+          <li><span class="hamburger">&#9776;</span></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
       <div class="hero-content">
         <h1>Learn to Code and Build Real-World Projects!</h1>
         <p>
@@ -16,9 +28,52 @@
         </p>
         <a href="#" class="cta-button">Start Learning Today!</a>
       </div>
+
       <div class="hero-image">
-        <img src="hero-illustration.png" alt="Coding illustration" />
+        <img src="/DevPath/DevImage/hero.jpg" alt="Labtop" />
       </div>
-    </header>
+    </section>
+    <section class="features" id="features">
+      <h2>Why Choose DevPath?</h2>
+      <div class="feature-container">
+        <div class="feature">
+          <span class="icon">📚</span>
+          <h3>Structured Learning Paths</h3>
+          <p>
+            Follow guided roadmaps for frontend, backend, and full-stack
+            development.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="icon">🛠️</span>
+          <h3>Hands-On Projects</h3>
+          <p>
+            Build real-world projects to apply your skills and showcase them in
+            your portfolio.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="icon">👥</span>
+          <h3>Mentorship & Community</h3>
+          <p>Get support from mentors and connect with fellow learners.</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>DevPath</h3>
+          <p>Empowering the next generation of developers.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: contact@devpath.com</p>
+          <p>Phone: +234 8147507859</p>
+        </div>
+        <div class="footer-section">
+          <p>© 2025 DevPath. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
